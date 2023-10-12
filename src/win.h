@@ -9,11 +9,11 @@
 #pragma warning(push, 1)
 #endif
 
-#undef WIN32_LEAN_AND_MEAN
-#define WIN32_LEAN_AND_MEAN
-
 #undef _WIN32_WINNT
 #define _WIN32_WINNT 0x0600
+
+#undef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
 
 /* clang-format off */
 #include <winsock2.h>
